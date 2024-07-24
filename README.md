@@ -1,5 +1,9 @@
-# LLMs
-proyecto de bootcamp IA generativa con pythoon
+<div align="center">
+    <h1>DistillBert | LLMs</h1>
+    <p align="center">
+        proyecto de bootcamp IA generativa con pythoon.
+    </p>
+</div>
 
 # MODELO DE LENGUAJE ELEGIDO DE HUGGINFACE: 
 DistillBert-base-spanish = https://huggingface.co/mrm8488/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es
@@ -39,3 +43,40 @@ Algo importante que mencionar es que he seleccionado una version del distillbert
 Este proyecto utiliza las siguientes tecnologías:
 - Python 3.10.0 importante tener esta version
 - https://www.python.org/downloads/release/python-3100/
+
+## Cómo levantar el proyecto
+
+1. Clona el repositorio.
+
+```bash
+git clone 
+```
+
+```bash
+cd LLMs
+```
+1. Crea y activa el entorno virtual con `python -m venv myvenv`
+
+```bash
+python -m venv myvenv
+```
+
+- Para Windows:
+
+```bash
+myvenv\Scripts\Activate
+```
+
+- Para Linux/macOS
+  
+```bash
+source myvenv/bin/activate
+```
+
+3. Instala las dependencias con `pip install -r requirements.txt`.
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Luego de eso eliges el entorno dentro del archivo jupiter y corres el proyecto.
