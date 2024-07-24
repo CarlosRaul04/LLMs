@@ -49,7 +49,7 @@ Este proyecto utiliza las siguientes tecnologías:
 1. Clona el repositorio.
 
 ```bash
-git clone 
+git clone https://github.com/CarlosRaul04/LLMs.git
 ```
 
 ```bash
