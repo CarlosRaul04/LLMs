@@ -6,15 +6,15 @@
 </div>
 
 # MODELO DE LENGUAJE ELEGIDO DE HUGGINFACE: 
-DistillBert-base-spanish = https://huggingface.co/mrm8488/distill-bert-base-spanish-wwm-cased-finetuned-spa-squad2-es
+DistillBert = https://huggingface.co/distilbert/distilbert-base-multilingual-cased
 
-Elegí este modelo ya que el modelo de lenguaje de bert destilado es una versión mucho más ligera que la original y tiene un 97% de similitud en rendimiento y eficiencia que el Bert base. Esta elección me permite realizar pruebas mucho más rápido y sin consumir mucha memoria de mi computadora. Considero que para este proyecto es lo necesario, tambien he notado que la versión en ingles es superior a la versión de español pero ire realizando pruebas para decidir finalmente si este será el modelo final que usaré o si usaré la versión en ingles; pero definitivamente usaré el distillBert. 
+Elegí este modelo ya que el modelo de lenguaje de bert destilado es una versión mucho más ligera que la original y tiene un 97% de similitud en rendimiento y eficiencia que el Bert base. Esta elección me permite realizar pruebas mucho más rápido y sin consumir mucha memoria de mi computadora. Considero que para este proyecto es lo necesario.
 
-Algo importante que mencionar es que he seleccionado una version del distillbert entrenada mucho más en lo que es responder preguntas con contexto. Al compararlo con el distillbert en español uncased me he dado cuenta que la que estoy utilizando es mejor ya que me ofrece los mismos resultados en otras actividades pero en la de responder preguntas es muy superior.
+Algo importante que mencionar es que he seleccionado una version del distillbert entrenada mucho más en lo que es descubrir la palabra enmascarada, por lo que es un modelo que realiza muchísimo mejor esa actividad que las otras. 
 
 # Justificación clara de la Elección del Modelo Encoder
 - Eficiencia: Es más rápido y ligero que BERT y RoBERTa, lo que es ideal para generar embeddings de manera eficiente.
-- Soporte Multilingüe: La versión multilingüe de DistilBERT está diseñada para manejar varios idiomas, incluido el español (Es por ello que todavía estoy decidiendo si utilizar la versión en español o la original).
+- Soporte Multilingüe: La versión multilingüe de DistilBERT está diseñada para manejar varios idiomas, incluido el español.
 - Facilidad de Integración: Es compatible con la biblioteca Transformers de Hugging Face, facilitando su uso y adaptación al proyecto.
 
 # COMPARACIÓN CON OTROS MODELOS: 
